@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 import './App.css'
 
 import Nav from './components/Nav'
-import Products from './components/Products';
+import ListProducts from './components/ListProducts';
 import CreateProducts from './components/CreateProducts';
 import Footer from './components/Footer'
 import Login from './components/Login'
@@ -17,7 +17,7 @@ function App() {
       <div className="text" >
         <Nav />
         <div >
-          <Route path="/Products" exact component={Products} />
+          <Route path="/ListProducts" exact component={ListProducts} />
           <Route path="/CreateProducts" component={CreateProducts} />
           <Route path="/Login" component={Login} />
         </div>
