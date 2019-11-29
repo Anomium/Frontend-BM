@@ -8,9 +8,9 @@ export default class Nav extends Component {
                 <div className="nav-wrapper">
                     <Link className="brand-logo" to="/">Logo</Link>
                     <ul id="nav-mobile" className="right hide-on-med-and-down">
-                        <li><Link className="nav-link" to="/ListProducts">Products</Link></li>
+                        <li><Link className="nav-link" to="/Home">Inicio</Link></li>
+                        <li><Link className="nav-link" to="/ListProducts">Productos</Link></li>
                         <li><Link className="nav-link" to="/CreateProducts">Crear Producto</Link></li>
-                        <li><Link className="nav-link" to="/"> JavaScript</Link></li>
                     </ul>
                 </div>
             </nav>

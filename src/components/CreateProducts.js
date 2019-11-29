@@ -27,7 +27,7 @@ export default class CreateProducts extends Component {
                         <a className="waves-effect waves-light btn">Guardar</a>
                     </div>
                 </form>
-                <div className="col s12 m9 l7">
+                <div className="col s12 m9 l8">
                     <Products/>
                     <Products/>
                     <Products/>
