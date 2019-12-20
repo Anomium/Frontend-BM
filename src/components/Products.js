@@ -9,6 +9,7 @@ export default class Products extends Component {
     }
     render() {
 
+        const { imgCard = '../Img/flowers-on-person-s-back-3164333.jpg'} = this.props
         const { titleCard = 'Titulo carta' } = this.props
         const { cardDetails = '#' } = this.props
         const { priceCard = '$none'} = this.props
@@ -20,7 +21,7 @@ export default class Products extends Component {
                         <div className="col s6 m4 l3 xl2">
                             <div className="card ">
                                 <div className="card-image">
-                                    <img src={img} />
+                                    <img src={imgCard} />
                                     <span className="card-title">
                                         {titleCard}
                                     </span>

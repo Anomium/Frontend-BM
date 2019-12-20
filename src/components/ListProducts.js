@@ -28,6 +28,7 @@ export default class ListProducts extends Component {
                         this.state.products.map(product => (
                             <Products
                                 key={product._id}
+                                imgCard={product.image}
                                 titleCard={product.title}
                                 cardDetails={product.details}
                                 priceCard={product.price}
